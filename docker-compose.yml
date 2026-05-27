@@ -15,5 +15,4 @@ services:
     environment:
       - PYTHONPATH=/app
     restart: unless-stopped 
-    print:"
-    "
+    print:"sdfsdfsdfds"
