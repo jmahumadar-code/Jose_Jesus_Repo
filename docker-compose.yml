@@ -7,12 +7,13 @@ services:
     working_dir: /app
     #command: python3 app.py
     command: tail -f /dev/null #keep it running
-    print: "Hola mundo"
-    ports:
+    command2: tail -f /dev/null #keep it running
+   ports:
       - "8000:8000"   
     volumes:
       - .:/app
     environment:
       - PYTHONPATH=/app
     restart: unless-stopped 
-    print:"sdfsdfsdfds"
+   
+
